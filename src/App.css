@@ -1,22 +1,22 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 10vh;
-  background: black;
+  background: #f3b917;
   color: white;
 }
 
 ul {
-  width: 40%;
+  width: 50%;
   display: flex;
   list-style: none;
   justify-content: space-around;
   align-items: center;
+  font-weight: bold;
 }
 
 .container {
@@ -24,8 +24,16 @@ ul {
   margin: 2em;
 }
 
+h1 {
+  text-align: center;
+}
+
 p {
   text-align: justify;
+}
+
+.books-image {
+  float: left;
 }
 
 .book-section {

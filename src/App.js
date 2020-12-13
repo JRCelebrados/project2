@@ -14,7 +14,11 @@ class App extends React.Component {
 
         <div className="App">
 
+          <header>
+
           <NavigationBar />
+
+          </header>
 
           <Switch>
             <Route path="/" exact component={Home} />
