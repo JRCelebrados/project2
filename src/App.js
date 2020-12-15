@@ -12,7 +12,7 @@ class App extends React.Component {
 
       <Router>
 
-        <div className="App">
+        <div>
 
           <header>
 
