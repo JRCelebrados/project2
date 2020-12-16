@@ -1,5 +1,6 @@
 .App {
-  /* text-align: center; */
+  text-align: center;
+  align-items: center;
 }
 
 nav {
@@ -38,9 +39,10 @@ p {
 
 .book-section {
   display: flex;
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
   padding: 1em;
   margin: 1em;
+  text-align: left;
 }
 
 .book {
@@ -54,8 +56,5 @@ p {
 
 .book-information {
   margin-left: 1em;
-}
-
-.book-author {
-
+  text-align: left;
 }

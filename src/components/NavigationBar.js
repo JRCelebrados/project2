@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import SearchBar from './Search_comps/SearchBar';
 
 function NavigationBar () {
 
@@ -19,6 +20,9 @@ function NavigationBar () {
           <Link style={navStyle} to="/"><li>Home</li></Link>
           <Link style={navStyle} to="/books"><li>Books</li></Link>
         </ul>
+        <div>
+        <SearchBar />
+        </div>
       </nav>
 
     </div>
