@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import SearchBar from './SearchBar';
+import SearchBar from './Search_comps/SearchBar';
 
 function NavigationBar () {
 

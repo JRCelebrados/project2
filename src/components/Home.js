@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SearchBar from './SearchBar';
+import SearchBar from './Search_comps/SearchBar';
 
 class Home extends React.Component {
 
