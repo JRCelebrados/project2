@@ -29,9 +29,14 @@ code {
   padding: 7px 20px;
   font-size: 12px;
   text-align: center;
-
   display: inline-block;
   font-weight: bold;
-
   right: 500px;
+}
+
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
 }

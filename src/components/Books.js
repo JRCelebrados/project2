@@ -38,6 +38,22 @@ class Books extends React.Component {
           </div>
         </div>
 
+        <div className="book-section">
+          <img class="book" src="images/book2.jpg" />
+          <div class="book-information">
+            <h2 class="book-title">A Tale of Two Cities</h2>
+            <br/>
+            <h3 >Author: Charles Dickens</h3>
+            <div class="book-description">
+              A Tale of Two Cities is an 1859 historical novel by Charles Dickens, 
+              set in London and Paris before and during the French Revolution. 
+              The novel tells the story of the French Doctor Manette, 
+              his 18-year-long imprisonment in the Bastille in Paris and his release to live in London with his daughter Lucie, 
+              whom he had never met. The story is set against the conditions that led up to the French Revolution and the Reign of Terror. 
+              </div>
+          </div>
+        </div>
+
       </div>
 
     );
