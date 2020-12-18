@@ -1,8 +1,28 @@
-import React, { Component } from 'react';
+import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import SearchBar from './Search_comps/SearchBar';
 
-function NavigationBar () {
+const NavigationBar = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 100 ) {
+      setScrolled(true);
+    }
+    else {
+      setScrolled(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+  })
+
+  let x = ['navbar'];
+  if (scrolled) {
+    x.push('scrolled');
+  }
 
   const navStyle = {
     color: 'white'
@@ -10,7 +30,7 @@ function NavigationBar () {
 
   return (
 
-    <div>
+    <div className={x.join(" ")}>
 
       <nav>
 
