@@ -16,6 +16,10 @@ class Books extends React.Component {
 
       <h1>Featured Books</h1>
 
+      <Book bookImage={BibleKJVImage} title="The Holy Bible: King James Version" author="N/A" />
+      <Book bookImage={TaleOfTwoCitiesImage} title="A Tale of Two Cities" author="Charles Dickens" />
+      <Book bookImage={LOTRimage} title="The Lord of the Rings" author="J.R.R. Tolkien" />
+      <Book bookImage={LesMisImage} title="Les Miserables" author="Victor Hugo" />
 
     </div>
 
