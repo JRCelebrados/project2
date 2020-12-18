@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
-import SearchBar from './Search_comps/SearchBar';
+import SearchBar from './SearchBar';
 
 const NavigationBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -41,7 +41,7 @@ const NavigationBar = () => {
           <Link style={navStyle} to="/books"><li>Books</li></Link>
         </ul>
         <div>
-        <SearchBar />
+          <SearchBar />
         </div>
       </nav>
 
