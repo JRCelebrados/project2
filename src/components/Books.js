@@ -18,7 +18,7 @@ class Books extends React.Component {
         <h1>Featured Books</h1>
 
         <Link to="/bible"><Book bookImage={BibleKJVImage} title="The Holy Bible: King James Version" author="N/A" /></Link>
-        <Book bookImage={TaleOfTwoCitiesImage} title="A Tale of Two Cities" author="Charles Dickens" />
+        <Link to="/taleOfTwoCities"><Book bookImage={TaleOfTwoCitiesImage} title="A Tale of Two Cities" author="Charles Dickens" /></Link>
         <Book bookImage={LOTRimage} title="The Lord of the Rings" author="J.R.R. Tolkien" />
         <Book bookImage={LesMisImage} title="Les Miserables" author="Victor Hugo" />
 

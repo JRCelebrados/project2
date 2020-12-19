@@ -10,7 +10,7 @@ function Genesis() {
 
       <div class="chapters">
         <Link to="/genesis1"><li>1</li></Link>
-        <li>2</li>
+        <Link to="/genesis2"><li>2</li></Link>
         <li>3</li>
         <li>4</li>
         <li>5</li>
