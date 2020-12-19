@@ -64,3 +64,11 @@ p {
 .book-author {
 
 }
+
+.bible-books {
+  list-style: none;
+}
+
+.chapters {
+  list-style: none;
+}
