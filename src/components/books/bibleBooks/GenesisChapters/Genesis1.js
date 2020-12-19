@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Genesis1() {
   return (
@@ -104,7 +105,10 @@ function Genesis1() {
         <p>
         31 And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day.
         </p>
+
       </div>
+
+      <Link to="/genesis2"><h3>Next Chapter</h3></Link>
 
     </div>
 
