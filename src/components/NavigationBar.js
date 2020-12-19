@@ -25,7 +25,8 @@ const NavigationBar = () => {
   }
 
   const navStyle = {
-    color: 'white'
+    color: 'white',
+    textDecoration: 'none',
   };
 
   return (
