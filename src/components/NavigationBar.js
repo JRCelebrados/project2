@@ -30,9 +30,9 @@ const NavigationBar = () => {
 
   return (
 
-    <div className={x.join(" ")}>
+    <div>
 
-      <nav>
+      <nav className={x.join(' ')}>
 
         <div class="logo"><img src="images/logo.jpg" alt="logo" /></div>
 

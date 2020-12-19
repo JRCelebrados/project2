@@ -1,5 +1,5 @@
 .App {
-  /* text-align: center; */
+  /*text-align: center;*/
 }
 
 nav {
@@ -42,10 +42,10 @@ p {
 
 .book-section {
   display: flex;
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
   padding: 1em;
   margin: 1em;
-  box-shadow: 7px 7px 0px rgb(0,0,128);
+  box-shadow: 7px 7px 0px rgb(0, 0, 128);
 }
 
 .book {
@@ -61,14 +61,9 @@ p {
   margin-left: 1em;
 }
 
-.book-author {
-
-}
-
-.bible-books {
-  list-style: none;
-}
-
-.chapters {
-  list-style: none;
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #f3b917;
 }
