@@ -2,6 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function BookExample() {
+
+  const listStyle = {
+    textDecoration: 'none',
+  };
+
   return (
 
     <div class="container">
@@ -9,7 +14,7 @@ function BookExample() {
       <h1>The Holy Bible: King James Version</h1>
 
       <div class="bible-books">
-        <Link to="/genesis"><li>Genesis</li></Link>
+        <Link style={listStyle} to="/genesis"><li>Genesis</li></Link>
         <li>Exodus</li>
         <li>Leviticus</li>
         <li>Numbers</li>

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
-import SearchBar from './SearchBar';
+import SearchBar from './Search_comps/SearchBar';
 
 const NavigationBar = () => {
   const [scrolled, setScrolled] = useState(false);
