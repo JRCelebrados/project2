@@ -1,4 +1,5 @@
 import React from 'react';
+import {FaSearch} from 'react-icons/fa';
 
 const SearchBar = ({keyword, setKeyword}) => {
 
@@ -13,7 +14,7 @@ const SearchBar = ({keyword, setKeyword}) => {
             value={keyword}
             placeholder={"search book"}
             onChange={(e) => setKeyword(e.target.value)} />
-          <button style={ButtonStyling} className="search-button" type="submit">Search</button>
+          <button style={ButtonStyling} className="search-button" type="submit"><FaSearch /></button>
         </div>
     );
 }
