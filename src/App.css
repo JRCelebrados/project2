@@ -41,24 +41,37 @@ p {
 }
 
 .book-section {
-  display: flex;
+  height: 259px;
+  display: grid;
+  grid-template-columns: 15% 1fr;
+  grid-template-rows: 1fr 1fr 80%;
   background-color: #d3d3d3;
   padding: 1em;
   margin: 1em;
-  box-shadow: 7px 7px 0px rgb(0, 0, 128);
+  /* box-shadow: 7px 7px 0px rgb(0, 0, 128); */
 }
 
 .book {
-  max-width: 20%;
-  max-height: 20%;
+  height: 259px;
+  grid-column: 1/2;
+  grid-row: 1/4;
 }
 
 .book-title {
-  float: left;
+  /* float: left; */
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.book-author {
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
 .book-information {
-  margin-left: 1em;
+  /* margin-left: 1em; */
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
 
 .scrolled {
